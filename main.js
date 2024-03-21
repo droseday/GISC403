@@ -62,7 +62,7 @@ const polygon = L.polygon([
 
 // END OF DOCUMENT
 setTimeout(ReOrder, 1000);
-function ReOrder() {
-	geojsonLayer.bringToBack();
-	polygon.bringToFront();
+	function ReOrder() {
+		geojsonLayer.bringToBack();
+		polygon.bringToFront();
 }
