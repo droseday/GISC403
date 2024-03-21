@@ -1,0 +1,49 @@
+<!-- ==============================================================
+
+	Name: Dempsey Rose-Day		
+	Date: 22/02/2024
+	Email: dro89@uclive.ac.nz
+	Description: Locations of New Zealand international airports
+
+============================================================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<base target="_top">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- CHANGE YOUR MAP TITLE TO SOMETHING BETTER -->
+	<title>New Zealand International Airports</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js" integrity="sha512-Abr21JO2YqcJ03XGZRPuZSWKBhJpUAR6+2wH5zBeO4wAw4oksr8PRdF+BKIRsxvCdq+Mv4670rZ+dLnIyabbGw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+
+	<link rel="stylesheet" href="main.css" />
+
+	
+</head>
+<body>
+
+
+<div id="header">
+	<!-- EDIT THE HEADER HERE -->
+	International Airports of New Zealand (2024)
+</div>
+<div id="map"></div>
+
+<div id="description">
+	<!-- EDIT THE DESCRIPTION HERE -->
+	This map highlights the four international airports of New Zealand in 2024 (and includes the formerly international Dunedin airport). 
+	As the only focus was to identify their locations, not assist in nagivation or advertise nearby attractions, the basemap was simplified through the removal of labels from points of interest and standardisation of road symbology.
+	The base land cover class colour was also darkened slightly to improve the contrast between features (especially with the purple territorial authority polygon overlay). Yellow was chosen for the border and fill of the Dunedin airport polygon as it contrasts well with this purple, making it more easily identifiable.
+</div>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
